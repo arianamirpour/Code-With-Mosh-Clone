@@ -18,9 +18,22 @@
 } */
 
 @media (max-width : 768px) {
-    .cards {
-        display: flex;
+    .cards{
         flex-direction: column;
+    }
+    .cards .first-card , .cards .second-card , .cards .third-card  , .cards .fourth-card{
+        width: 150px;
+        margin: 8px !important;
+    }
+    .cards .first-card h1 , .cards .second-card h1 , .cards .third-card h1 , .cards .fourth-card h1 {
+        font-size: 1.9rem;
+    }
+    .cards .first-card p , .cards .second-card p , .cards .third-card p , .cards .fourth-card p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .cards .first-card , .cards .second-card , .cards .third-card , .cards .fourth-card {
+        margin-bottom: 20px;
     }
     .hamburger-icon {
         display: block;

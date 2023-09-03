@@ -7,6 +7,7 @@
 }
 
 body {
+    height: 2000px;
     font-family: 'Outfit', sans-serif;
     background-color: #0D1224;
     /* background-image: url(./images/Image-02.jpg); */
@@ -25,6 +26,8 @@ header {
 }
 .d-flex{
     display: flex;
+    padding: 0px !important;
+    margin: 0 !important;
 }
 .logo {
     display: flex;
@@ -188,7 +191,6 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    
 }
 
 
