@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;700&family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D1224;
+    /* background-image: url(./images/Image-02.jpg); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position: -300px -100px !important; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: auto;
+    margin-top: 18px;
+    transition: all 0.4s ease-in-out;
+}
+.d-flex{
+    display: flex;
+}
+.logo {
+    display: flex;
+}
+
+
+.logo h1 {
+    margin-top: 5px;
+    margin-left: 4px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+}
+
+
+.logo img {
+    width: 40px ;
+    height: 40px;
+    margin-top: 5px;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0px 28px 0 0;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .9rem;
+}
+
+.navbar li:last-child {
+    background-color: #8244FF;
+    padding: 7px 15px;
+    border-radius: 50px ;
+}
+
+.navbar a:hover {
+    font-weight: 500;
+}
+
+
+.main-banner {
+    display: flex;
+    width: 1250px;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.main-text {
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+
+.main-text h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 43px;
+    color: #fff;
+}
+
+.main-text #green {
+    color: #16F8B6;
+}
+
+.main-text #pink {
+    color: #F926AE;
+}
+
+.main-text p {
+    color: #fff;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.main-text #bold1 , #bold2 {
+    font-weight: 700;
+}
+
+
+.course {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30px;
+    background: rgb(152,0,103);
+    background: linear-gradient(90deg, rgba(152,0,103,1) 0%, rgba(0,84,255,1) 100%); 
+    background-color: #8244FF;
+    padding: 10px;
+    border-radius: 650px;
+}
+
+.course h3 {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.course i{
+    font-size: 1.1rem;
+}
+
+.course h3 , i {
+    margin: 3px;
+}
+
+
+.first-section {
+    /* width: 1200px; */
+    justify-content: center;
+    text-align: center;
+    
+    margin: auto;
+}
+
+.first-section h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.first-section p:first-child {
+    color: #8244FF;
+    margin-top: 90px;
+    margin-bottom: 15px;
+}
+
+.first-section p:last-child {
+    width: 600px;
+    margin: auto;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 35px;
+    font-weight: 200;
+}
+
+
+.intro video {
+    width: 700px;
+    margin-top: 30px;
+
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+
+.cards div {
+    padding: 40px;
+    margin: 15px;
+}
+
+.cards p {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.first-card h1 {
+    color: #A679FF;
+    font-size: 2.4rem;
+}
+
+.first-card {
+    width: 210px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: 0.1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second-card h1 {
+    color: #4CCFAF;
+    font-size: 2.4rem;
+}
+
+.second-card {
+    width: 210px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: 0.1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.third-card h1 {
+    color: #FF5FCC;
+    font-size: 2.4rem;
+}
+
+.third-card {
+    width: 210px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: 0.1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third-card p {
+    font-size: .9rem;
+}
+
+.fourth-card h1 {
+    color: #FF9F24;
+    font-size: 2.4rem;
+}
+
+
+.fourth-card {
+    width: 210px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.048);
+    border: 0.1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fourth-card p {
+    font-size: .9rem;
+}
+
+
+.hamburger-icon {
+    color: #fff;
+    display: flex;
+    font-size: 1.8rem;
+    opacity: 0.6;
+    display: none;
+}
