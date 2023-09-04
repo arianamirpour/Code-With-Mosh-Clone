@@ -42,4 +42,17 @@
     .navbar {
         display: none;
     }
+
+    .intro video {
+        width:80%;
+    }
+
+    .first-section .text p:last-child {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 27px;
+        width: 90%;
+    }
+
+    
 }

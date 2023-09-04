@@ -190,6 +190,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    margin-bottom: 90px;
 }
 
 
@@ -293,4 +294,26 @@ header {
     font-size: 1.8rem;
     opacity: 0.6;
     display: none;
+}
+
+/* -----------------------article--------------------------- */
+
+.main-article {
+    border-top: 1px solid rgba(192, 192, 192, 0.199);
+     
+}
+
+.top-text {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.top-text p {
+    color: #8244FF ;
+}
+
+.top-text h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 10px;
 }
