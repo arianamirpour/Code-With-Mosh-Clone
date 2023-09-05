@@ -2,12 +2,11 @@
 
 @media (max-width : 1535px) {
     header {
-        width: 95%;
+        width: 98%;
     }
-    
     .main-banner {
         width: 98%;
-        /* margin-left: 20px; */
+        margin-left: 20px;
     }
 }
 
@@ -16,6 +15,8 @@
 
     
 } */
+
+
 
 @media (max-width : 768px) {
     .cards{
@@ -47,11 +48,33 @@
         width:80%;
     }
 
+    .main-banner {
+        padding: 0;
+        margin: 0;
+    }
+
     .first-section .text p:last-child {
         text-align: center;
         font-size: 1.1rem;
         line-height: 27px;
         width: 90%;
+    }
+
+    .items {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .text-item #last-p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .picture img {
+        width: 350px;
+        margin: auto;
+        margin-top: 20px;
+        justify-content: center;
     }
 
     
