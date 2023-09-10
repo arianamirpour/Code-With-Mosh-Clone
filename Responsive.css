@@ -10,18 +10,12 @@
     }
 }
 
-/* @media (max-width : 1023px) {
-
-
-    
-} */
-
 
 
 @media (max-width : 768px) {
-    .cards{
+    /* .cards{
         flex-direction: column;
-    }
+    } */
     .cards .first-card , .cards .second-card , .cards .third-card  , .cards .fourth-card{
         width: 150px;
         margin: 8px !important;
@@ -78,4 +72,15 @@
     }
 
     
+}
+
+
+@media (max-width : 576px ) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .picture #second {
+        width: 80%; 
+    }
 }

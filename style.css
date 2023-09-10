@@ -369,6 +369,15 @@ header {
 }
 
 
+.picture #second {
+    width: 400px; 
+}
+
+.items img #Second {
+    width: 20px;
+}
+
+
 .second-item {
     margin-left: 40px;
 }
