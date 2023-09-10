@@ -83,4 +83,8 @@
     .picture #second {
         width: 80%; 
     }
+
+    header {
+        width: 90%;
+    }
 }
